@@ -1,0 +1,31 @@
+{
+  "name": "backend-socialscore",
+  "version": "0.1.0",
+  "description": "BackEnd API for processing Social Score app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "Social",
+    "Facebook",
+    "Twitter",
+    "Media",
+    "MediaSolutions"
+  ],
+  "author": "Sarim R Shah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "node-html-parser": "^1.1.16"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
